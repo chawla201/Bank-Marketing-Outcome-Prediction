@@ -73,7 +73,7 @@ This repository contains a machine learning project aimed at predicting the outc
     docker push chawla201/bank-additional-assignment
     ```
 4. Open AWS console and log in with your account
-5. Go to Elastic Container Service (ESC)
+5. Go to Elastic Container Service (ECS)
 6. Go to task definitions section from the left panel
 7. Create new task definition
     * use AWS fargate as launch type
