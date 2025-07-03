@@ -12,6 +12,24 @@ This repository contains a machine learning project aimed at predicting the outc
 - **Model Evaluation**: Metrics like accuracy, precision, recall, F1-score, and ROC-AUC are used to evaluate model performance.
 - **Deployment**: Includes steps for deploying the trained model using MLOps practices.
 
+## Model Performance:
+Logistic Regression algorithm is used for the binary classification task. \
+```
+LogisticRegression(max_iter = 1000, solver = 'sag')
+```
+**Performance Outcome:**
+```
+ROC AUC: 0.9559803921568626
+              precision    recall  f1-score   support
+
+           0       0.89      0.95      0.92       150
+           1       0.88      0.75      0.81        68
+
+    accuracy                           0.89       218
+   macro avg       0.89      0.85      0.87       218
+weighted avg       0.89      0.89      0.89       218
+```
+
 ## Installation
 
 1. Clone the repository:
