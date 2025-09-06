@@ -1,5 +1,9 @@
 # Bank-Marketing-Outcome-Prediction
 
+## Objective
+
+The aim of this MLOps project was to learn, understand, and implement the deployment process for machine learning models using Docker and AWS. This project focuses on building a robust pipeline for deploying a machine learning model, ensuring scalability, reliability, and ease of use in real-world scenarios.
+
 ## Overview
 
 This repository contains a machine learning project aimed at predicting the outcomes of bank marketing campaigns. The dataset used for this project is derived from real-world marketing campaigns conducted by a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
